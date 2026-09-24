@@ -11,7 +11,7 @@
 
 <br><br>
 
-- :school: soy un estudiante de la Faculatd de ingenieria de sistemas en la [universidad del Cauca](http://suez.edu.eg/ar/).
+- :school: soy un estudiante de la Facultad de ingenieria de sistemas en la [universidad del Cauca](https://www.unicauca.edu.co).
 - :technologist: Me gusta encontrar soluciones para distintos `Problemas`.
 - :student: continuamente estoy aprendiendo a usar distintas tecnologias y lenguajes, mayormente enfocado con temas de `ciberseguridad` y `Desarrollo de software`.
 - :nerd_face: Siempre busco la forma de `aprender cosas nuevas`.
