@@ -1,109 +1,134 @@
-<h1 align="center">Hola , soy santiago caicedo <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<h1 align="center">Hola , soy Santiago Caicedo <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=Ingeniero+de+sistemas+en+formacion;estudiante+en+desarrollo+de+software;programador+competitivo;siempre+aprendiendo+nuevas+cosas"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=C8BE25&center=true&vCenter=true&width=650&lines=Ingeniero+de+sistemas+en+formaci%C3%B3n;Entusiasta+de+la+ciberseguridad;Amante+de+Linux+%26+la+l%C3%ADnea+de+comandos;Programador+competitivo;Siempre+aprendiendo+algo+nuevo" alt="Typing SVG" />
+  </a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=santyxswc&label=Visitas+al+perfil&color=c8be25&style=flat" alt="visitor badge"/>
+</p>
 
-	
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Sobre mi
-
-<picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
-
-<br><br>
-
-- :school: soy un estudiante de la Facultad de ingenieria de sistemas en la [universidad del Cauca](https://www.unicauca.edu.co).
-- :technologist: Me gusta encontrar soluciones para distintos `Problemas`.
-- :student: continuamente estoy aprendiendo a usar distintas tecnologias y lenguajes, mayormente enfocado con temas de `ciberseguridad` y `Desarrollo de software`.
-- :nerd_face: Siempre busco la forma de `aprender cosas nuevas`.
-- :thinking: Me gusta tener un buen uso en las herramientas  en los metodos que uso
 <br>
 
-</p>
+## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px"></picture> Sobre mí
 
-## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Connect-with-me.gif?raw=true" width="100px"> </picture> Connect with me
+<picture><img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width="250px"></picture>
+
+- 🎓 Estudiante de Ingeniería de Sistemas en la [Universidad del Cauca](https://www.unicauca.edu.co).
+- 🔐 Enfocado en **ciberseguridad**: análisis de vulnerabilidades, pentesting y hardening de sistemas.
+- 🐧 Usuario habitual de **Linux** (Kali / Ubuntu), cómodo trabajando desde la terminal.
+- 💻 Me gusta resolver problemas de programación y aprender nuevas tecnologías.
+- 🌱 Actualmente profundizando en desarrollo de software seguro y herramientas de seguridad ofensiva.
+- 🤝 Abierto a colaborar en proyectos de CTFs, seguridad y desarrollo.
+
+<br clear="right">
+
+## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Connect-with-me.gif?raw=true" width="100px"></picture> Conecta conmigo
+
 <p align="center">
-	</a>
-	<a href="https://github.com/santyxswc"><img src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"/></a>
-	<a href="https://www.linkedin.com/in/santiago-caicedo-orozco-5695942bb/"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/santyxswc"><img src="https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/santiago-caicedo-orozco-5695942bb/"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
 
-
+<br>
 
 ## 🛠️ Mis habilidades
 
-### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Programming_Languages.gif?raw=true" width = 50px>  </picture> Lenguajes de programación
+### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Programming_Languages.gif?raw=true" width="50px"></picture> Lenguajes de programación
 
-<p align="center"> 
-  &emsp; 
-  <a href="https://www.cprogramming.com/" target="_blank"> 
-    <img alt="C" src="https://img.shields.io/badge/C%20-%232370ED.svg?style=plastic&logo=c&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://www.w3schools.com/cpp/" target="_blank"> 
-    <img alt="C++" src="https://img.shields.io/badge/C++%20-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank"> 
-    <img alt="C#" src="https://img.shields.io/badge/C%23-darkviolet">
-  </a> 
-  &emsp;
-  <a href="https://www.java.com" target="_blank"> 
-    <img alt="Java" src="https://img.shields.io/badge/Java-%23007396.svg?style=plastic&logo=java&logoColor=white">
+<p align="center">
+  <img alt="C" src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
+  <img alt="C++" src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+  <img alt="C#" src="https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
+  <img alt="Java" src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white">
+</p>
+
+### <picture><img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/hacker.gif" width="50px"></picture> Ciberseguridad & Pentesting
+
+<p align="center">
+  <img alt="Kali Linux" src="https://img.shields.io/badge/Kali%20Linux-557C94.svg?style=for-the-badge&logo=kali-linux&logoColor=white">
+  <img alt="Nmap" src="https://img.shields.io/badge/Nmap-000000.svg?style=for-the-badge&logo=nmap&logoColor=white">
+  <img alt="Wireshark" src="https://img.shields.io/badge/Wireshark-1679A7.svg?style=for-the-badge&logo=wireshark&logoColor=white">
+  <img alt="Burp Suite" src="https://img.shields.io/badge/Burp%20Suite-FF6633.svg?style=for-the-badge&logo=burpsuite&logoColor=white">
+  <img alt="Metasploit" src="https://img.shields.io/badge/Metasploit-2596CD.svg?style=for-the-badge&logo=metasploit&logoColor=white">
+  <img alt="OWASP" src="https://img.shields.io/badge/OWASP-000000.svg?style=for-the-badge&logo=owasp&logoColor=white">
+</p>
+
+### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/OS.gif?raw=true" width="50px"></picture> Sistemas operativos
+
+<p align="center">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white">
+  <img alt="Kali Linux" src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white">
+  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+</p>
+
+### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/IDEs.gif?raw=true" width="50px"></picture> IDEs & editores
+
+<p align="center">
+  <img alt="Visual Studio Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+  <img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white">
+  <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white">
+  <img alt="Zinjai" src="https://img.shields.io/badge/Zinjai-F0C000?style=for-the-badge">
+</p>
+
+### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Software_Tools.gif?raw=true" width="50px"></picture> Herramientas & software
+
+<p align="center">
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
+</p>
+
+<br>
+
+## 📌 Proyectos destacados
+
+<p align="center">
+  <a href="https://github.com/santyxswc/FarmaciaApp">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=FarmaciaApp&theme=tokyonight&hide_border=true" />
   </a>
-  &emsp;
-   <a href="https://www.python.org" target="_blank">
-    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?style=plastic&logo=python&logoColor=white">
+  <a href="https://github.com/santyxswc/BackJack-CS">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=BackJack-CS&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/santyxswc/streaming-Sntx">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=streaming-Sntx&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/santyxswc/CuadoDeTurnos">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=CuadoDeTurnos&theme=tokyonight&hide_border=true" />
   </a>
 </p>
 
+<br>
 
- ### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Software_Tools.gif?raw=true" width = 50px>  </picture> Software y herramientas
- 
+## 📊 Estadísticas de GitHub
+
 <p align="center">
-  &emsp;
-    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?style=plastic&logo=git&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="GitHub" src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Google Sheets" src="https://img.shields.io/badge/Google%20Sheets%20-%2334A853.svg?style=plastic&logo=google%20sheets&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Mark Down" src="https://img.shields.io/badge/Markdown-000000?style=plastic&logo=markdown&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=plastic&logo=stack-overflow&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img src="https://img.shields.io/badge/mysql-%234479A1.svg?&style=plastic&logo=mysql&logoColor=white"/></a>
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=santyxswc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santyxswc&layout=compact&theme=tokyonight&hide_border=true" alt="Top langs"/>
 </p>
 
- ### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/IDEs.gif?raw=true" width = 50px>  </picture> IDEs
- 
 <p align="center">
-  &emsp;
-    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-violet" /></a>
-  &emsp;
-    <a href="#"><img alt="Zinjai" src="https://img.shields.io/badge/zinjai-lightyellow" /></a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=santyxswc&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </p>
 
-
- ### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/OS.gif?raw=true" width = 50px>  </picture> Sistemas Operativos
- 
 <p align="center">
-  &emsp;
-    <a href="#"><img src="https://img.shields.io/badge/Linux-FCC624?style=plastic&logo=linux&logoColor=black"></a>
-  &emsp;
-    <a href="#"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=plastic&logo=ubuntu&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img src="https://img.shields.io/badge/Windows-0078D6?style=plastic&logo=windows&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img src="https://img.shields.io/badge/kali%20linux-darkblue" /></a>
+  <img src="https://github-profile-trophy.vercel.app/?username=santyxswc&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub trophies"/>
 </p>
 
-<br> 
+<br>
 
 ---
 
-<p align = "center">
-	<a href="https://github.com/piyushsuthar/github-readme-quotes"> <img alt = "Quote" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&animation=grow_out_in&quoteCategory=programming">
+<p align="center">
+  <i>"La seguridad no es un producto, es un proceso."</i> — Bruce Schneier
 </p>
-
