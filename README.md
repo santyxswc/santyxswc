@@ -44,6 +44,7 @@
   <img alt="C#" src="https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
   <img alt="Java" src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white">
   <img alt="Bash" src="https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white">
 </p>
 
@@ -62,9 +63,19 @@
 
 <p align="center">
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white">
   <img alt="Kali Linux" src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white">
   <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+</p>
+
+### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/IDEs.gif?raw=true" width="50px"></picture> IDEs & editores
+
+<p align="center">
+  <img alt="Visual Studio Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+  <img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white">
+  <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white">
+  <img alt="Zinjai" src="https://img.shields.io/badge/Zinjai-F0C000?style=for-the-badge">
 </p>
 
 ### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Software_Tools.gif?raw=true" width="50px"></picture> Herramientas & software
@@ -74,8 +85,27 @@
   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
   <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
-  <img alt="Visual Studio Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-  <img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white">
+</p>
+
+<br>
+
+## 📌 Proyectos destacados
+
+<p align="center">
+  <a href="https://github.com/santyxswc/FarmaciaApp">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=FarmaciaApp&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/santyxswc/BackJack-CS">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=BackJack-CS&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/santyxswc/streaming-Sntx">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=streaming-Sntx&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/santyxswc/CuadoDeTurnos">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=CuadoDeTurnos&theme=tokyonight&hide_border=true" />
+  </a>
 </p>
 
 <br>
@@ -100,7 +130,5 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/piyushsuthar/github-readme-quotes">
-    <img alt="Quote" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&animation=grow_out_in&quoteCategory=programming">
-  </a>
+  <i>"La seguridad no es un producto, es un proceso."</i> — Bruce Schneier
 </p>
