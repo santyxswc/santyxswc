@@ -1,134 +1,134 @@
-<h1 align="center">Hola , soy Santiago Caicedo <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:3d2c8d,100:7aa2f7&height=190&section=header&text=Santiago%20Caicedo&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Ingeniero%20de%20Sistemas%20en%20formaci%C3%B3n%20%C2%B7%20Universidad%20del%20Cauca&descSize=17&descAlignY=58&animation=fadeIn" alt="Santiago Caicedo"/>
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=C8BE25&center=true&vCenter=true&width=650&lines=Ingeniero+de+sistemas+en+formaci%C3%B3n;Entusiasta+de+la+ciberseguridad;Amante+de+Linux+%26+la+l%C3%ADnea+de+comandos;Programador+competitivo;Siempre+aprendiendo+algo+nuevo" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=7AA2F7&center=true&vCenter=true&width=620&lines=Desarrollo+de+software+de+escritorio+y+web;Arquitectura+de+software+y+patrones+de+dise%C3%B1o;Linux+%26+ciberseguridad;Programador+competitivo;Siempre+aprendiendo+algo+nuevo" alt="Typing SVG"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=santyxswc&label=Visitas+al+perfil&color=c8be25&style=flat" alt="visitor badge"/>
+  <a href="https://www.linkedin.com/in/santiago-caicedo-orozco-5695942bb/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://streaming-sntx.vercel.app"><img src="https://img.shields.io/badge/Demo-streaming--Sntx-7aa2f7?style=for-the-badge&logo=vercel&logoColor=white" alt="Demo de streaming-Sntx"/></a>
+  <img src="https://komarev.com/ghpvc/?username=santyxswc&label=Visitas&color=7aa2f7&style=for-the-badge" alt="Visitas al perfil"/>
 </p>
 
-<br>
+## 👨‍💻 Sobre mí
 
-## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px"></picture> Sobre mí
+<img align="right" width="230" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" alt=""/>
 
-<picture><img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width="250px"></picture>
+- 🎓 Estudiante de **Ingeniería de Sistemas** en la [Universidad del Cauca](https://www.unicauca.edu.co).
+- 🧱 Me interesa la **arquitectura de software**: capas, MVC, microkernel, microservicios, hexagonal y patrones GoF aplicados a proyectos reales.
+- 🖥️ Construyo aplicaciones de **escritorio** (.NET + Avalonia, Electron, Tauri) y **web** (Next.js, React, NestJS, Spring Boot).
+- 🔐 Me apasiona la **ciberseguridad** y trabajo a diario en **Linux** (Arch / Kali) desde la terminal.
+- 🧪 Me gusta que mis proyectos compilen, tengan pruebas y corran en CI.
+- 🏆 Programador competitivo: disfruto resolver problemas.
 
-- 🎓 Estudiante de Ingeniería de Sistemas en la [Universidad del Cauca](https://www.unicauca.edu.co).
-- 🔐 Enfocado en **ciberseguridad**: análisis de vulnerabilidades, pentesting y hardening de sistemas.
-- 🐧 Usuario habitual de **Linux** (Kali / Ubuntu), cómodo trabajando desde la terminal.
-- 💻 Me gusta resolver problemas de programación y aprender nuevas tecnologías.
-- 🌱 Actualmente profundizando en desarrollo de software seguro y herramientas de seguridad ofensiva.
-- 🤝 Abierto a colaborar en proyectos de CTFs, seguridad y desarrollo.
+<br clear="right"/>
 
-<br clear="right">
+## ⭐ Proyectos destacados
 
-## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Connect-with-me.gif?raw=true" width="100px"></picture> Conecta conmigo
+### 🎬 [streaming-Sntx](https://github.com/santyxswc/streaming-Sntx) · [ver en vivo ↗](https://streaming-sntx.vercel.app)
 
-<p align="center">
-  <a href="https://github.com/santyxswc"><img src="https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/santiago-caicedo-orozco-5695942bb/"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+Catálogo de **más de 100.000 películas y series** para descubrir títulos por sus tráilers oficiales,
+con **búsqueda en lenguaje natural asistida por IA**, listas personales y chat por título.
+Tiene app web y cliente de escritorio que consumen la misma API.
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Tailwind_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/PostgreSQL_(Neon)-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Tauri_2-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt="Tauri"/>
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest"/>
 </p>
 
-<br>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💊 <a href="https://github.com/santyxswc/FarmaciaApp">FarmaciaApp</a></h3>
+      <a href="https://github.com/santyxswc/FarmaciaApp"><img src="https://raw.githubusercontent.com/santyxswc/FarmaciaApp/master/docs/capturas/02-inicio-administrador.png" alt="FarmaciaApp"/></a>
+      <p>Gestión de una farmacia: ventas con facturación, inventario, clientes, proveedores, promociones y turnos de empleados. Multiplataforma.</p>
+      <img src="https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET"/>
+      <img src="https://img.shields.io/badge/Avalonia-8B44AC?style=flat-square" alt="Avalonia"/>
+      <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle"/>
+      <img src="https://img.shields.io/badge/Dapper-555?style=flat-square" alt="Dapper"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🃏 <a href="https://github.com/santyxswc/BackJack-CS">BlackJack</a></h3>
+      <a href="https://github.com/santyxswc/BackJack-CS"><img src="https://raw.githubusercontent.com/santyxswc/BackJack-CS/master/docs/capturas/02-mano.png" alt="BlackJack"/></a>
+      <p>Blackjack de escritorio contra la banca, con cuentas de jugador que guardan saldo y estadísticas entre partidas. Windows, Linux y macOS.</p>
+      <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#"/>
+      <img src="https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET"/>
+      <img src="https://img.shields.io/badge/Avalonia-8B44AC?style=flat-square" alt="Avalonia"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏥 <a href="https://github.com/santyxswc/CuadoDeTurnos">TurnoCare</a></h3>
+      <p>Aplicación de escritorio para que un equipo de enfermería maneje su cuadro de turnos, marcaciones, horas diurnas/nocturnas, recargos, vacaciones y chat del equipo. Motor de reglas en TypeScript puro con pruebas.</p>
+      <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron"/>
+      <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+      <img src="https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📝 <a href="https://github.com/santyxswc/Banco_preguntas-ISoftII">Banco de Preguntas Saber Pro</a></h3>
+      <p>Proyecto en equipo: gestión, validación estructural y revisión por pares de preguntas tipo Saber Pro. Evoluciona de monolito en capas (MVC) a microservicios con eventos y arquitectura hexagonal.</p>
+      <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
+      <img src="https://img.shields.io/badge/Swing-5382A1?style=flat-square" alt="Swing"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+      <img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white" alt="Flyway"/>
+    </td>
+  </tr>
+</table>
 
-## 🛠️ Mis habilidades
+Otros: [Lab_ing_softwareII](https://github.com/santyxswc/Lab_ing_softwareII) (microkernel + tuberías y filtros, API REST con Spring Boot) ·
+[ArquitecturaComputacional](https://github.com/santyxswc/ArquitecturaComputacional) (control de acceso y ambiental) ·
+[almacen-c](https://github.com/santyxswc/almacen-c) (POO en C++)
 
-### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Programming_Languages.gif?raw=true" width="50px"></picture> Lenguajes de programación
+## 🛠️ Tecnologías
 
-<p align="center">
-  <img alt="C" src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
-  <img alt="C++" src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img alt="C#" src="https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
-  <img alt="Java" src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white">
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white">
+**Lenguajes**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,cs,ts,js,py,cpp,c,bash&theme=dark" alt="Lenguajes"/>
 </p>
 
-### <picture><img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/hacker.gif" width="50px"></picture> Ciberseguridad & Pentesting
+**Frameworks, datos y herramientas**
 
-<p align="center">
-  <img alt="Kali Linux" src="https://img.shields.io/badge/Kali%20Linux-557C94.svg?style=for-the-badge&logo=kali-linux&logoColor=white">
-  <img alt="Nmap" src="https://img.shields.io/badge/Nmap-000000.svg?style=for-the-badge&logo=nmap&logoColor=white">
-  <img alt="Wireshark" src="https://img.shields.io/badge/Wireshark-1679A7.svg?style=for-the-badge&logo=wireshark&logoColor=white">
-  <img alt="Burp Suite" src="https://img.shields.io/badge/Burp%20Suite-FF6633.svg?style=for-the-badge&logo=burpsuite&logoColor=white">
-  <img alt="Metasploit" src="https://img.shields.io/badge/Metasploit-2596CD.svg?style=for-the-badge&logo=metasploit&logoColor=white">
-  <img alt="OWASP" src="https://img.shields.io/badge/OWASP-000000.svg?style=for-the-badge&logo=owasp&logoColor=white">
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=dotnet,spring,nextjs,react,tailwind,nodejs,nestjs,electron,tauri,vite,vitest&theme=dark" alt="Frameworks"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,firebase,docker,githubactions,vercel,git,idea,vscode&theme=dark" alt="Datos y herramientas"/>
 </p>
 
-### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/OS.gif?raw=true" width="50px"></picture> Sistemas operativos
+**Sistemas y seguridad**
 
-<p align="center">
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-  <img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white">
-  <img alt="Kali Linux" src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white">
-  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-  <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=linux,arch,kali&theme=dark" alt="Sistemas"/>
+  <img src="https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge" alt="Nmap"/>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
 </p>
 
-### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/IDEs.gif?raw=true" width="50px"></picture> IDEs & editores
+## 📊 Actividad en GitHub
 
 <p align="center">
-  <img alt="Visual Studio Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-  <img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white">
-  <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white">
-  <img alt="Zinjai" src="https://img.shields.io/badge/Zinjai-F0C000?style=for-the-badge">
-</p>
-
-### <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Software_Tools.gif?raw=true" width="50px"></picture> Herramientas & software
-
-<p align="center">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
-</p>
-
-<br>
-
-## 📌 Proyectos destacados
-
-<p align="center">
-  <a href="https://github.com/santyxswc/FarmaciaApp">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=FarmaciaApp&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/santyxswc/BackJack-CS">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=BackJack-CS&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/santyxswc/streaming-Sntx">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=streaming-Sntx&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/santyxswc/CuadoDeTurnos">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api/pin/?username=santyxswc&repo=CuadoDeTurnos&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
-
-<br>
-
-## 📊 Estadísticas de GitHub
-
-<p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=santyxswc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santyxswc&layout=compact&theme=tokyonight&hide_border=true" alt="Top langs"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=santyxswc&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <img height="170" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Estadísticas"/>
+  <img height="170" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Lenguajes con más commits"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=santyxswc&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub trophies"/>
+  <img src="https://streak-stats.demolab.com/?user=santyxswc&theme=tokyonight&hide_border=true&locale=es" alt="Racha de contribuciones"/>
 </p>
-
-<br>
-
----
 
 <p align="center">
-  <i>"La seguridad no es un producto, es un proceso."</i> — Bruce Schneier
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/output/github-snake.svg"/>
+    <img alt="Serpiente comiéndose el gráfico de contribuciones" src="https://raw.githubusercontent.com/santyxswc/santyxswc/output/github-snake-dark.svg"/>
+  </picture>
 </p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:3d2c8d,100:1a1b27&height=110&section=footer" alt=""/>
