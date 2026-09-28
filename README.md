@@ -55,8 +55,8 @@ Tiene app web y cliente de escritorio que consumen la misma API.
       <img src="https://img.shields.io/badge/Dapper-555?style=flat-square" alt="Dapper"/>
     </td>
     <td width="50%" valign="top">
-      <h3>🃏 <a href="https://github.com/santyxswc/BackJack-CS">BlackJack</a></h3>
-      <a href="https://github.com/santyxswc/BackJack-CS"><img src="https://raw.githubusercontent.com/santyxswc/BackJack-CS/master/docs/capturas/02-mano.png" alt="BlackJack"/></a>
+      <h3>🃏 <a href="https://github.com/santyxswc/BlackJack-CS">BlackJack</a></h3>
+      <a href="https://github.com/santyxswc/BlackJack-CS"><img src="https://raw.githubusercontent.com/santyxswc/BlackJack-CS/master/docs/capturas/02-mano.png" alt="BlackJack"/></a>
       <p>Blackjack de escritorio contra la banca, con cuentas de jugador que guardan saldo y estadísticas entre partidas. Windows, Linux y macOS.</p>
       <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#"/>
       <img src="https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET"/>
@@ -65,7 +65,7 @@ Tiene app web y cliente de escritorio que consumen la misma API.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏥 <a href="https://github.com/santyxswc/CuadoDeTurnos">TurnoCare</a></h3>
+      <h3>🏥 <a href="https://github.com/santyxswc/CuadroDeTurnos">TurnoCare</a></h3>
       <p>Aplicación de escritorio para que un equipo de enfermería maneje su cuadro de turnos, marcaciones, horas diurnas/nocturnas, recargos, vacaciones y chat del equipo. Motor de reglas en TypeScript puro con pruebas.</p>
       <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron"/>
       <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
