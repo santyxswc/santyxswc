@@ -79,6 +79,8 @@ Tiene app web y cliente de escritorio que consumen la misma API.
       <img src="https://img.shields.io/badge/Swing-5382A1?style=flat-square" alt="Swing"/>
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
       <img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white" alt="Flyway"/>
+      <br/>
+      <a href="https://github.com/santyxswc/Banco_preguntas-ISoftII/actions/workflows/pruebas.yml"><img src="https://github.com/santyxswc/Banco_preguntas-ISoftII/actions/workflows/pruebas.yml/badge.svg" alt="Pruebas"/></a>
     </td>
   </tr>
 </table>
