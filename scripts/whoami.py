@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera la tarjeta `$ whoami` del perfil (assets/whoami-dark.svg y whoami-light.svg).
+"""Genera las tarjetas `$ whoami` y `$ cat sobre-mi.md` del perfil (versiones dark y light).
 
 Sólo usa la librería estándar:
     python scripts/whoami.py
@@ -7,12 +7,7 @@ Sólo usa la librería estándar:
 
 from __future__ import annotations
 
-import html
-from pathlib import Path
-
-SALIDA = Path(__file__).resolve().parents[1] / "assets"
-W, H = 960, 400
-FUENTE = "ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace"
+from terminal import FUENTE, TEMAS, barras, guardar, panel, texto, ventana
 
 VENTAJAS = [
     ("devops/", "Docker · Terraform · GitHub Actions · CI/CD"),
@@ -31,41 +26,23 @@ LENGUAJES = [
     ("JavaScript", 8.1, "#f1e05a"),
 ]
 
-TEMAS = {
-    "dark": {
-        "fondo": "#1a1b26", "panel": "#1f2335", "linea": "#292e42", "borde": "#7aa2f7",
-        "tenue": "#565f89", "texto": "#c0caf5", "prompt": "#7dcfff", "rol": "#e0af68",
-        "clave": "#bb9af7", "valor": "#9ece6a", "carpeta": "#f7768e", "barra": "#292e42",
-    },
-    "light": {
-        "fondo": "#f2f3f7", "panel": "#e9e9ed", "linea": "#c4c8da", "borde": "#2e7de9",
-        "tenue": "#8990b3", "texto": "#3760bf", "prompt": "#007197", "rol": "#8c6c3e",
-        "clave": "#9854f1", "valor": "#587539", "carpeta": "#f52a65", "barra": "#d0d5e3",
-    },
-}
+SOBRE_MI = [
+    ("estudio", "Ingeniería de Sistemas · Universidad del Cauca"),
+    ("arquitectura", "capas · MVC · microkernel · microservicios · hexagonal"),
+    ("escritorio", ".NET + Avalonia · Electron · Tauri"),
+    ("web", "Next.js · React · NestJS · Spring Boot · Go"),
+    ("linux", "Arch y Kali a diario, desde la terminal"),
+    ("calidad", "que compile, tenga pruebas y corra en CI"),
+]
 
 
-def texto(x: float, y: float, contenido: str, color: str, tam: int, extra: str = "") -> str:
-    return (f'<text x="{x}" y="{y}" fill="{color}" font-family="{FUENTE}" font-size="{tam}" {extra}>'
-            f"{html.escape(contenido)}</text>")
-
-
-def renderizar(tema: str) -> str:
+def whoami(tema: str) -> str:
     t = TEMAS[tema]
-    p = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
-        'role="img" aria-labelledby="titulo desc">',
-        '<title id="titulo">Santiago Caicedo — DevOps · Full Stack · Ciberseguridad</title>',
-        '<desc id="desc">Tarjeta de terminal con mi contexto, mis principales áreas y los lenguajes que más uso.</desc>',
-        f'<rect width="{W}" height="{H}" rx="18" fill="{t["fondo"]}"/>',
-        f'<rect x="9" y="9" width="{W - 18}" height="{H - 18}" rx="13" fill="none" stroke="{t["borde"]}" '
-        'stroke-opacity=".6" stroke-width="1.5"/>',
-        '<circle cx="35" cy="35" r="5" fill="#f7768e"/><circle cx="54" cy="35" r="5" fill="#e0af68"/>'
-        '<circle cx="73" cy="35" r="5" fill="#9ece6a"/>',
-        texto(98, 40, "santyxswc  ·  profile shell  ·  online", t["tenue"], 14),
-        f'<path d="M29 58H{W - 29}" stroke="{t["linea"]}"/>',
-        # Panel izquierdo.
-        f'<rect x="29" y="78" width="626" height="292" rx="9" fill="{t["panel"]}" stroke="{t["linea"]}"/>',
+    p = ventana(t, 960, 400, "Santiago Caicedo — DevOps · Full Stack · Ciberseguridad",
+                "Tarjeta de terminal con mi contexto, mis principales áreas y los lenguajes que más uso.",
+                "santyxswc  ·  profile shell  ·  online")
+    p += [
+        panel(t, 29, 78, 626, 292),
         texto(48, 111, "❯ whoami", t["prompt"], 20, 'font-weight="700"'),
         f'<text x="48" y="143" font-family="{FUENTE}" font-size="17">'
         f'<tspan fill="{t["texto"]}">santiago_caicedo</tspan>'
@@ -89,30 +66,31 @@ def renderizar(tema: str) -> str:
 
     # Panel derecho: lenguajes más usados.
     x0, ancho = 677, 254
-    p += [
-        f'<rect x="{x0}" y="78" width="{ancho}" height="292" rx="9" fill="{t["panel"]}" stroke="{t["linea"]}"/>',
-        texto(x0 + 18, 111, "❯ lenguajes --top", t["prompt"], 16, 'font-weight="700"'),
-    ]
-    maximo = max(pct for _, pct, _ in LENGUAJES)
-    largo = ancho - 36
-    for i, (nombre, pct, color) in enumerate(LENGUAJES):
-        y = 142 + i * 36
-        p.append(texto(x0 + 18, y, nombre, t["texto"], 14))
-        p.append(texto(x0 + ancho - 18, y, f"{pct:.0f}%", t["tenue"], 13, 'text-anchor="end"'))
-        p.append(f'<rect x="{x0 + 18}" y="{y + 7}" width="{largo}" height="6" rx="3" fill="{t["barra"]}"/>')
-        p.append(f'<rect x="{x0 + 18}" y="{y + 7}" width="{largo * pct / maximo:.1f}" height="6" rx="3" '
-                 f'fill="{color}"/>')
+    p += [panel(t, x0, 78, ancho, 292), texto(x0 + 18, 111, "❯ lenguajes --top", t["prompt"], 16, 'font-weight="700"')]
+    p += barras(t, x0 + 18, 142, ancho - 36, [(n, f"{pct:.0f}%", pct, c) for n, pct, c in LENGUAJES])
     p.append(texto(x0 + 18, 360, "% líneas escritas · todos mis repos", t["tenue"], 10))
     p.append("</svg>")
     return "".join(p)
 
 
+def sobre_mi(tema: str) -> str:
+    t = TEMAS[tema]
+    alto = 128 + len(SOBRE_MI) * 30 + 34
+    p = ventana(t, 960, alto, "Sobre mí", "Estudios, intereses y forma de trabajar de Santiago Caicedo.",
+                "santyxswc  ·  ~/  ·  sobre-mi.md")
+    p += [panel(t, 29, 78, 902, alto - 108), texto(48, 111, "❯ cat sobre-mi.md", t["prompt"], 20, 'font-weight="700"')]
+    for i, (clave, valor) in enumerate(SOBRE_MI):
+        y = 148 + i * 30
+        p.append(texto(48, y, f"{clave}:", t["clave"], 16))
+        p.append(texto(200, y, valor, t["texto"], 16))
+    p.append("</svg>")
+    return "".join(p)
+
+
 def main() -> None:
-    SALIDA.mkdir(exist_ok=True)
     for tema in TEMAS:
-        destino = SALIDA / f"whoami-{tema}.svg"
-        destino.write_text(renderizar(tema), encoding="utf-8")
-        print(destino.relative_to(SALIDA.parent))
+        guardar(f"whoami-{tema}.svg", whoami(tema))
+        guardar(f"sobre-mi-{tema}.svg", sobre_mi(tema))
 
 
 if __name__ == "__main__":
