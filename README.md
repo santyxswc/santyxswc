@@ -169,9 +169,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/actividad-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="assets/actividad-light.svg"/>
-    <img src="assets/actividad-dark.svg" width="100%" alt="Actividad en GitHub: contribuciones, commits, pull requests y commits por lenguaje, incluyendo repos privados"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/actividad-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/actividad-light.svg"/>
+    <img src="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/actividad-dark.svg" width="100%" alt="Actividad en GitHub: contribuciones, commits, pull requests y commits por lenguaje, incluyendo repos privados"/>
   </picture>
 </p>
 
