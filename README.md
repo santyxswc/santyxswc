@@ -176,11 +176,15 @@
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-light.svg"/>
-    <img src="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-dark.svg" width="100%" alt="Calendario de contribuciones por día del último año, incluyendo repos privados"/>
-  </picture>
+  <a href="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-dark.svg">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-light.svg"/>
+      <img src="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-dark.svg" width="100%" alt="Calendario de contribuciones por día del último año, incluyendo repos privados"/>
+    </picture>
+  </a>
+  <br/>
+  <sub><code>↗ haz clic en el calendario y pasa el mouse por un día para ver sus contribuciones</code></sub>
 </p>
 
 <p align="center">

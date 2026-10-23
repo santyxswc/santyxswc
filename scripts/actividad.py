@@ -40,6 +40,8 @@ NIVELES = {
     "light": ["#d0d5e3", "#a8c4f0", "#6d9ef0", "#2e7de9", "#1a56b0"],
 }
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+MESES_LARGOS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre",
+                "octubre", "noviembre", "diciembre"]
 DIAS = {1: "lun", 3: "mié", 5: "vie"}
 # Dependencias, compilados y código generado no cuentan como escrito por mí.
 IGNORAR = re.compile(r"(node_modules|vendor/|dist/|build/|bin/|obj/|\.min\.|lock|generated|\.gen\.|_gen\.|"
@@ -109,6 +111,16 @@ def calendario() -> tuple[list[list[tuple[str, int]]], int]:
     return semanas, cal["totalContributions"]
 
 
+def descripcion(dia: str, cantidad: int) -> str:
+    """Texto del tooltip, p. ej. «22 de octubre de 2026 · 12 contribuciones»."""
+    d = date.fromisoformat(dia)
+    if cantidad == 0:
+        detalle = "sin contribuciones"
+    else:
+        detalle = f"{cantidad} contribución" if cantidad == 1 else f"{cantidad} contribuciones"
+    return f"{d.day} de {MESES_LARGOS[d.month - 1]} de {d.year} · {detalle}"
+
+
 def nivel(cantidad: int, maximo: int) -> int:
     if cantidad == 0:
         return 0
@@ -123,6 +135,9 @@ def renderizar_calendario(tema: str, semanas: list[list[tuple[str, int]]], total
     p = ventana(t, 960, 336, "Contribuciones por día",
                 "Calendario de contribuciones del último año, incluyendo repos privados.",
                 "santyxswc  ·  ~/repos  ·  git log --graph")
+    # Los tooltips (<title>) y el resaltado sólo funcionan al abrir el SVG directamente;
+    # dentro del README GitHub lo muestra como imagen fija.
+    p.append(f'<style>.dia:hover{{stroke:{t["texto"]};stroke-width:1.5}}</style>')
     p += [panel(t, 29, 78, 902, 228),
           texto(48, 111, "❯ git log --graph --since=1.year", t["prompt"], 18, 'font-weight="700"'),
           texto(912, 111, f"{total} contribuciones", t["valor"], 15, 'text-anchor="end" font-weight="700"')]
@@ -144,7 +159,7 @@ def renderizar_calendario(tema: str, semanas: list[list[tuple[str, int]]], total
         for dia, cantidad in semana:
             fila = (date.fromisoformat(dia).weekday() + 1) % 7  # domingo arriba
             p.append(f'<rect x="{x}" y="{y0 + fila * paso}" width="{celda}" height="{celda}" rx="2" '
-                     f'fill="{colores[nivel(cantidad, maximo)]}"><title>{dia}: {cantidad}</title></rect>')
+                     f'fill="{colores[nivel(cantidad, maximo)]}" class="dia"><title>{descripcion(dia, cantidad)}</title></rect>')
 
     # Leyenda.
     ly = y0 + 7 * paso + 22
