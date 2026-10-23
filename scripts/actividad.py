@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Genera la tarjeta `$ git log --stats` (assets/actividad-dark.svg y actividad-light.svg).
 
-Cuenta también los repos privados, por eso se corre en local con la sesión de gh:
+Cuenta también los repos privados. El workflow perfil.yml la regenera cada día con el
+secret ACTIVIDAD_TOKEN y la publica en la rama `actividad`. En local basta la sesión de gh:
     gh auth login
     python scripts/actividad.py
 

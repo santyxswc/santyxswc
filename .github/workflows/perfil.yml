@@ -3,7 +3,7 @@ name: Tarjetas del perfil
 on:
   push:
     branches: [main]
-    paths: [".github/workflows/perfil.yml"]
+    paths: [".github/workflows/perfil.yml", "scripts/actividad.py", "scripts/terminal.py"]
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
@@ -12,6 +12,36 @@ permissions:
   contents: write
 
 jobs:
+  # Lee también los repos privados, por eso usa un token propio de sólo lectura
+  # (secret ACTIVIDAD_TOKEN) en vez del GITHUB_TOKEN, que sólo ve este repo.
+  actividad:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.ACTIVIDAD_TOKEN }}
+    steps:
+      - name: Revisar el token
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Falta el secret ACTIVIDAD_TOKEN"
+            exit 1
+          fi
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Usar el token para clonar
+        run: gh auth setup-git
+      - name: Generar la tarjeta
+        run: |
+          python3 scripts/actividad.py
+          mkdir -p dist
+          cp assets/actividad-dark.svg assets/actividad-light.svg dist/
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: actividad
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   serpiente:
     runs-on: ubuntu-latest
     steps:
