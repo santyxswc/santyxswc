@@ -176,6 +176,14 @@
 </p>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-light.svg"/>
+    <img src="https://raw.githubusercontent.com/santyxswc/santyxswc/actividad/calendario-dark.svg" width="100%" alt="Calendario de contribuciones por día del último año, incluyendo repos privados"/>
+  </picture>
+</p>
+
+<p align="center">
   <img src="https://streak-stats.demolab.com/?user=santyxswc&theme=tokyonight&hide_border=true&locale=es" alt="Racha de contribuciones"/>
 </p>
 

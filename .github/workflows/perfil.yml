@@ -34,7 +34,7 @@ jobs:
         run: |
           python3 scripts/actividad.py
           mkdir -p dist
-          cp assets/actividad-dark.svg assets/actividad-light.svg dist/
+          cp assets/actividad-*.svg assets/calendario-*.svg dist/
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: actividad

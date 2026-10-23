@@ -16,7 +16,7 @@ import json
 import os
 import re
 import subprocess
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from terminal import TEMAS, barras, guardar, panel, texto, ventana
@@ -34,6 +34,13 @@ COLORES = {
     "TypeScript": "#3178c6", "Go": "#00add8", "Kotlin": "#a97bff", "Java": "#b07219",
     "Python": "#3572a5", "JavaScript": "#f1e05a", "C#": "#178600", "C++": "#f34b7d", "C": "#555555",
 }
+# Intensidad del calendario, de "sin contribuciones" a "muchas" (azules de Tokyo Night).
+NIVELES = {
+    "dark": ["#292e42", "#2b4a7a", "#3d6db8", "#5a8ee6", "#89b4fa"],
+    "light": ["#d0d5e3", "#a8c4f0", "#6d9ef0", "#2e7de9", "#1a56b0"],
+}
+MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+DIAS = {1: "lun", 3: "mié", 5: "vie"}
 # Dependencias, compilados y código generado no cuentan como escrito por mí.
 IGNORAR = re.compile(r"(node_modules|vendor/|dist/|build/|bin/|obj/|\.min\.|lock|generated|\.gen\.|_gen\.|"
                      r"\.pb\.|mock|/gen/)", re.I)
@@ -93,6 +100,62 @@ def contribuciones(desde: datetime) -> int:
     return total
 
 
+def calendario() -> tuple[list[list[tuple[str, int]]], int]:
+    """Contribuciones por día del último año, en semanas de domingo a sábado (igual que GitHub)."""
+    datos = graphql("query{viewer{contributionsCollection{contributionCalendar{totalContributions "
+                    "weeks{contributionDays{date contributionCount}}}}}}")
+    cal = datos["contributionsCollection"]["contributionCalendar"]
+    semanas = [[(d["date"], d["contributionCount"]) for d in w["contributionDays"]] for w in cal["weeks"]]
+    return semanas, cal["totalContributions"]
+
+
+def nivel(cantidad: int, maximo: int) -> int:
+    if cantidad == 0:
+        return 0
+    return min(4, 1 + int(3 * cantidad / max(maximo, 1)))
+
+
+def renderizar_calendario(tema: str, semanas: list[list[tuple[str, int]]], total: int) -> str:
+    t = TEMAS[tema]
+    colores = NIVELES[tema]
+    celda, paso = 11, 15
+    x0, y0 = 88, 156
+    p = ventana(t, 960, 336, "Contribuciones por día",
+                "Calendario de contribuciones del último año, incluyendo repos privados.",
+                "santyxswc  ·  ~/repos  ·  git log --graph")
+    p += [panel(t, 29, 78, 902, 228),
+          texto(48, 111, "❯ git log --graph --since=1.year", t["prompt"], 18, 'font-weight="700"'),
+          texto(912, 111, f"{total} contribuciones", t["valor"], 15, 'text-anchor="end" font-weight="700"')]
+    for fila, nombre in DIAS.items():
+        p.append(texto(48, y0 + fila * paso + 9, nombre, t["tenue"], 10))
+
+    # El día con más actividad marca la escala; así un solo pico no apaga el resto, se toma el percentil 95.
+    cantidades = sorted(c for semana in semanas for _, c in semana if c)
+    maximo = cantidades[int(len(cantidades) * 0.95) - 1] if cantidades else 1
+    # Columna donde empieza cada mes; un mes que apenas asoma (menos de 3 semanas) no lleva etiqueta.
+    inicios = [col for col, semana in enumerate(semanas)
+               if col == 0 or date.fromisoformat(semana[0][0]).month != date.fromisoformat(semanas[col - 1][0][0]).month]
+    for col, siguiente in zip(inicios, inicios[1:] + [len(semanas)]):
+        if siguiente - col >= 3:
+            mes = date.fromisoformat(semanas[col][0][0]).month
+            p.append(texto(x0 + col * paso, y0 - 10, MESES[mes - 1], t["tenue"], 10))
+    for col, semana in enumerate(semanas):
+        x = x0 + col * paso
+        for dia, cantidad in semana:
+            fila = (date.fromisoformat(dia).weekday() + 1) % 7  # domingo arriba
+            p.append(f'<rect x="{x}" y="{y0 + fila * paso}" width="{celda}" height="{celda}" rx="2" '
+                     f'fill="{colores[nivel(cantidad, maximo)]}"><title>{dia}: {cantidad}</title></rect>')
+
+    # Leyenda.
+    ly = y0 + 7 * paso + 22
+    p.append(texto(758, ly + 9, "menos", t["tenue"], 10, 'text-anchor="end"'))
+    for i, color in enumerate(colores):
+        p.append(f'<rect x="{766 + i * paso}" y="{ly}" width="{celda}" height="{celda}" rx="2" fill="{color}"/>')
+    p.append(texto(766 + 5 * paso + 4, ly + 9, "más", t["tenue"], 10))
+    p.append("</svg>")
+    return "".join(p)
+
+
 def renderizar(tema: str, stats: list[tuple[str, str]], lenguajes: list[tuple[str, int, float]]) -> str:
     t = TEMAS[tema]
     p = ventana(t, 960, 372, "Actividad en GitHub",
@@ -136,8 +199,10 @@ def main() -> None:
         ("estrellas", str(sum(r["stargazerCount"] for r in repos))),
         ("activo_desde", desde.strftime("%Y-%m")),
     ]
+    semanas, total_anio = calendario()
     for tema in TEMAS:
         guardar(f"actividad-{tema}.svg", renderizar(tema, stats, top))
+        guardar(f"calendario-{tema}.svg", renderizar_calendario(tema, semanas, total_anio))
     for nombre, valor in stats:
         print(f"  {nombre}: {valor}")
     for n, c, pct in top:
