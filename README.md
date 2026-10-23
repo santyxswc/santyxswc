@@ -1,8 +1,16 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:3d2c8d,100:7aa2f7&height=190&section=header&text=Santiago%20Caicedo&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Ingeniero%20de%20Sistemas%20en%20formaci%C3%B3n%20%C2%B7%20Universidad%20del%20Cauca&descSize=17&descAlignY=58&animation=fadeIn" alt="Santiago Caicedo"/>
+<p align="center">
+  <a href="https://github.com/santyxswc">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg"/>
+      <img src="assets/banner-dark.svg" width="100%" alt="Mi retrato hecho de puntos que se transforma en los logos de Linux y Arch Linux, junto a mi perfil.yml"/>
+    </picture>
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=7AA2F7&center=true&vCenter=true&width=620&lines=Desarrollo+de+software+de+escritorio+y+web;Arquitectura+de+software+y+patrones+de+dise%C3%B1o;Linux+%26+ciberseguridad;Programador+competitivo;Siempre+aprendiendo+algo+nuevo" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=7AA2F7&center=true&vCenter=true&width=620&lines=Santiago+Caicedo+%E2%80%94+DevOps+Engineer;Full+Stack+%C2%B7+Ciberseguridad+%C2%B7+Linux;Arquitectura+de+software+y+patrones+de+dise%C3%B1o;Programador+competitivo;Siempre+aprendiendo+algo+nuevo" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -10,6 +18,16 @@
   <a href="https://www.linkedin.com/in/santiago-caicedo-orozco-5695942bb/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://streaming-sntx.vercel.app"><img src="https://img.shields.io/badge/Demo-streaming--Sntx-7aa2f7?style=for-the-badge&logo=vercel&logoColor=white" alt="Demo de streaming-Sntx"/></a>
   <img src="https://komarev.com/ghpvc/?username=santyxswc&label=Visitas&color=7aa2f7&style=for-the-badge" alt="Visitas al perfil"/>
+</p>
+
+## `$ whoami`
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/whoami-light.svg"/>
+    <img src="assets/whoami-dark.svg" width="100%" alt="Santiago Caicedo — DevOps, Full Stack y Ciberseguridad desde Colombia. Lenguajes más usados: TypeScript, Go, Kotlin, Java, Python y JavaScript"/>
+  </picture>
 </p>
 
 ## 👨‍💻 Sobre mí
@@ -94,7 +112,7 @@ Otros: [Lab_ing_softwareII](https://github.com/santyxswc/Lab_ing_softwareII) (mi
 **Lenguajes**
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,cs,ts,js,py,cpp,c,bash&theme=dark" alt="Lenguajes"/>
+  <img src="https://skillicons.dev/icons?i=ts,go,kotlin,java,py,js,cs,cpp,c,bash&theme=dark" alt="Lenguajes"/>
 </p>
 
 **Frameworks, datos y herramientas**
@@ -102,7 +120,7 @@ Otros: [Lab_ing_softwareII](https://github.com/santyxswc/Lab_ing_softwareII) (mi
 <p align="left">
   <img src="https://skillicons.dev/icons?i=dotnet,spring,nextjs,react,tailwind,nodejs,nestjs,electron,tauri,vite,vitest&theme=dark" alt="Frameworks"/>
   <br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,firebase,docker,githubactions,vercel,git,idea,vscode&theme=dark" alt="Datos y herramientas"/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,firebase,docker,terraform,githubactions,vercel,git,idea,vscode&theme=dark" alt="Datos y herramientas"/>
 </p>
 
 **Sistemas y seguridad**
